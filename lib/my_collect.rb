@@ -1,6 +1,5 @@
 def my_collect (array)
   new_array = []
-  new_string =""
   i=0
   while i < array.length
     new_string = yield array[i]
